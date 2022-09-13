@@ -42,7 +42,7 @@ export default function About() {
                 <title>About - Hamza Elbarkani</title>
                 <meta
                     name="description"
-                    content="I’m Spencer Sharp. I live in New York City, where I design the future."
+                    content="Ik ben Hamza Elbarkani en ik kom uit Tilburg."
                 />
             </Head>
             <Container className="mt-16 sm:mt-32">
@@ -63,33 +63,16 @@ export default function About() {
                         </h1>
                         <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
                             <p>
-                                laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa
-                                laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa
-                                laaaaaaaaa laaaaaaaaa laaaaaaaaa
+                               Ik ben een sportieve student die de opleiding software development volgt. Aan de Koning Willem I College in 's-Hertogenbosch.
                             </p>
                             <p>
-                                laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa
-                                laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa
-                                laaaaaaaaa laaaaaaaaa laaaaaaaaalaaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa
-                                laaaaaaaaa laaaaaaaaa laaaaaaaaa
-                                laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa
-                                laaaaaaaaa laaaaaaaaa laaaaaaaaa
+                                Ik heb eerder gewerkt met HTML, CSS, JS, PHP, Bootstrap, Laravel en Tailwind. Waarmee ik school projecten heb gemaakt maar ook een paar persoonlijke projecten voor mijn portfolio. Je kunt ze bekijken op de tab "Projects".
                             </p>
                             <p>
-                              laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa
-                              laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa
-                              laaaaaaaaa laaaaaaaaa laaaaaaaaalaaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa
-                              laaaaaaaaa laaaaaaaaa laaaaaaaaa
-                              laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa
-                              laaaaaaaaa laaaaaaaaa laaaaaaaaa
+                              Ik codeer nu 2 jaar wat nog heel weinig is maar ik doe het wel met plezier. En ik hou er van om nieuwe dingen te leren en dat gebeurt bij software gelukkig wel veel.
                             </p>
                             <p>
-                              laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa
-                              laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa
-                              laaaaaaaaa laaaaaaaaa laaaaaaaaalaaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa
-                              laaaaaaaaa laaaaaaaaa laaaaaaaaa
-                              laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa laaaaaaaaa
-                              laaaaaaaaa laaaaaaaaa laaaaaaaaa
+                              Een paar van mijn hobby's zijn thai boksen en fitness want je moet ook wel bewegen als je de hele dag achter een bureau zit.
                             </p>
                         </div>
                     </div>

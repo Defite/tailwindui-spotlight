@@ -13,28 +13,28 @@ const projects = [
         name: 'Phaser 3 Game',
         description:
             'Een platformer game waarbij je sterren verzamelt en zo je score opbouwt.',
-        link: {href: '#', label: 'Phaser 3 Game'},
+        link: {href: 'phaser-project', label: 'Phaser 3 Game'},
         logo: logoPhaser3,
     },
     {
         name: 'PHP Crud',
         description:
             'Een PHP crud systeem met een simpele login.',
-        link: {href: '#', label: 'Crud-systeem'},
+        link: {href: 'crud-project', label: 'Crud-systeem'},
         logo: logoPhpcrud,
     },
     {
         name: 'PHP Faq',
         description:
             'Een faq page gemaakt met collapsible',
-        link: {href: '#', label: 'FAQ page'},
+        link: {href: 'faq-project', label: 'FAQ page'},
         logo: logoAnimaginary,
     },
     {
         name: 'Zoekmachine',
         description:
             'Zoek een grap op met een stuk van het woord en krijg je resultaat.',
-        link: {href: '#', label: 'Search engine'},
+        link: {href: 'searchengine-project', label: 'Search engine'},
         logo: logoSearch,
     },
     {
