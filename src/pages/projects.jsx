@@ -38,10 +38,10 @@ const projects = [
         logo: logoSearch,
     },
     {
-        name: 'Toekomst',
+        name: 'Coming',
         description:
-            'Er komt nog wat later op',
-        link: {href: '#', label: 'github.com'},
+            'soon',
+        link: {href: '#', label: '/'},
         logo: logoAnimaginary,
     },
 ]

@@ -39,10 +39,12 @@ export default function PhaserProject() {
                 title="Zoekmachine"
                 intro={"Een zoekmachine voor een tabel uit een database"}>
                 <div className="space-y-20">
-                    <ToolsSection title="Start">
+                    <ToolsSection>
                         <Tool title="Description">
+                            Een school project waarbij je de database moest inladen en vervolgens een zoekfunctie in zitten zodat je de benodigde informatie zoeken. Het werkt met het hele zin of alleen stuk ervan.
                         </Tool>
                         <Tool title="Wat ik geleerd heb">
+                            Ik heb geleerd hoe je een simpele zoekfunctie creëert.
                         </Tool>
                     </ToolsSection>
                     <ToolsSection title="">
