@@ -3,14 +3,7 @@ import Head from 'next/head'
 import {Card} from '@/components/Card'
 import {Section} from '@/components/Section'
 import {SimpleLayout} from '@/components/SimpleLayout'
-import Carousel from "react-responsive-carousel";
-import Image from "next/future/image";
-import crud1 from "src/images/photos/CRUD-LIST-1.jpg"
-import crud2 from "src/images/photos/CRUD-LIST-2.jpg"
-import crud3 from "src/images/photos/CRUD-LIST-3.jpg"
-import crud4 from "src/images/photos/CRUD-LIST-4.jpg"
-import crud5 from "src/images/photos/CRUD-LIST-5.jpg"
-import crud6 from "src/images/photos/CRUD-LIST-6.jpg"
+import {CarouselComponent} from '@/components/Carousel'
 
 function ToolsSection({children, ...props}) {
     return (
@@ -33,17 +26,6 @@ function Tool({title, href, children}) {
     )
 }
 
-function App() {
-    return (
-        <Carousel>
-            <img src='https://via.placeholder.com/150' alt='imagem' title='imagem' />
-            <img src='https://via.placeholder.com/150' alt='imagem' title='imagem' />
-            <img src='https://via.placeholder.com/150' alt='imagem' title='imagem' />
-            <img src='https://via.placeholder.com/150' alt='imagem' title='imagem' />
-            <img src='https://via.placeholder.com/150' alt='imagem' title='imagem' />
-        </Carousel>
-    )
-}
 
 export default function PhaserProject() {
     return (
@@ -69,15 +51,13 @@ export default function PhaserProject() {
                             verwijdert en aanpast en dat je dan het resultaat in de database en op de site ziet.
                         </Tool>
                     </ToolsSection>
-                    <ToolsSection title="">
                         <Tool title="Final product">
-                       <App>
-
-                       </App>
+                            <CarouselComponent>
+                            </CarouselComponent>
 
 
                         </Tool>
-                    </ToolsSection>
+
                 </div>
             </SimpleLayout>
         </>
