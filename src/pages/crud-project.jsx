@@ -4,6 +4,14 @@ import {Card} from '@/components/Card'
 import {Section} from '@/components/Section'
 import {SimpleLayout} from '@/components/SimpleLayout'
 import {CarouselComponent} from '@/components/Carousel'
+import Image from "next/future/image";
+import crud1 from "@/images/photos/CRUD-LIST-1.jpg";
+import crud2 from "@/images/photos/CRUD-LIST-2.jpg";
+import crud3 from "@/images/photos/CRUD-LIST-3.jpg";
+import crud4 from "@/images/photos/CRUD-LIST-4.jpg";
+import crud5 from "@/images/photos/CRUD-LIST-5.jpg";
+import crud6 from "@/images/photos/CRUD-LIST-6.jpg";
+import React from "react";
 
 function ToolsSection({children, ...props}) {
     return (
@@ -31,7 +39,7 @@ export default function PhaserProject() {
     return (
         <>
             <Head>
-                <title>Phaser game</title>
+                <title>Hamza Elbarkani | CRUD</title>
                 <meta
                     name="description"
                     content="Crud"
@@ -53,6 +61,36 @@ export default function PhaserProject() {
                     </ToolsSection>
                         <Tool title="Final product">
                             <CarouselComponent>
+                                <div>
+                                    <Image src={crud1} alt="image1"/>
+                                    <p className="legend">Homepagina</p>
+
+                                </div>
+                                <div>
+                                    <Image src={crud2} alt="image2"/>
+                                    <p className="legend">Login formulier</p>
+
+                                </div>
+                                <div>
+                                    <Image src={crud3} alt="image3"/>
+                                    <p className="legend">Activiteit toevoegen</p>
+
+                                </div>
+                                <div>
+                                    <Image src={crud4} alt="image4"/>
+                                    <p className="legend">Homepagina nieuwe activiteit tonen</p>
+
+                                </div>
+                                <div>
+                                    <Image src={crud5} alt="image5"/>
+                                    <p className="legend">Nieuwe activiteit word weer verwijdert</p>
+
+                                </div>
+                                <div>
+                                    <Image src={crud6} alt="image6"/>
+                                    <p className="legend">Gebruiker kan hier uitloggen</p>
+
+                                </div>
                             </CarouselComponent>
 
 

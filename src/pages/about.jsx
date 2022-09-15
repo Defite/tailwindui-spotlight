@@ -39,7 +39,7 @@ export default function About() {
     return (
         <>
             <Head>
-                <title>About - Hamza Elbarkani</title>
+                <title>Hamza Elbarkani | About</title>
                 <meta
                     name="description"
                     content="Ik ben Hamza Elbarkani en ik kom uit Tilburg."

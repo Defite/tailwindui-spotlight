@@ -25,9 +25,14 @@
     "prop-types": "^15.8.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-lightbox-component": "^1.2.1",
+    "react-modal-image": "^2.6.0",
+    "react-player": "^2.10.1",
     "react-responsive-carousel": "^3.2.23",
+    "react-use-downloader": "^1.1.7",
     "remark-gfm": "^3.0.1",
-    "tailwindcss": "^3.1.4"
+    "tailwindcss": "^3.1.4",
+    "yet-another-react-lightbox": "^2.1.1"
   },
   "devDependencies": {
     "eslint": "8.19.0",

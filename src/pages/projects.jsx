@@ -61,7 +61,7 @@ export default function Projects() {
     return (
         <>
             <Head>
-                <title>Projects - Hamza Elbarkani</title>
+                <title>Hamza Elbarkani | Projects</title>
                 <meta
                     name="description"
                     content="Things I’ve made."

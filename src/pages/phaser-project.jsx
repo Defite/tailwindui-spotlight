@@ -4,6 +4,7 @@ import {Card} from '@/components/Card'
 import {Section} from '@/components/Section'
 import {SimpleLayout} from '@/components/SimpleLayout'
 import PropTypes from "prop-types";
+import ReactPlayer from "../components/Player"
 
 function ToolsSection({children, ...props}) {
     return (
@@ -40,7 +41,7 @@ export default function PhaserProject() {
     return (
         <>
             <Head>
-                <title>Phaser game</title>
+                <title>Hamza Elbarkani | Phaser game</title>
                 <meta
                     name="description"
                     content="Game"
@@ -63,15 +64,9 @@ export default function PhaserProject() {
                     <ToolsSection title="">
                         <Tool title="Final product">
                             Dit is dan het eind product waar je sterren kan verzamelen en "spikes" moet ontwijken.
-                            {/*<Image src={phasersc}*/}
-                            {/*       alt=""*/}
-                            {/*       sizes="(min-width: 640px) 18rem, 11rem"*/}
-                            {/*       className="rounded-3xl"/>*/}
+                            <ReactPlayer>
 
-                            <video width="750" height="500" controls>
-                                <source src="/public/Videos/phaser-game.mp4" type="video/mp4"/>
-                                Your browser does not support this video...
-                            </video>
+                            </ReactPlayer>
                         </Tool>
                     </ToolsSection>
                 </div>
