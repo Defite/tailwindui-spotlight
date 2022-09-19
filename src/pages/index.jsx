@@ -224,6 +224,7 @@ export default function Home({articles}) {
                         Student software developer
                     </h1>
                     <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+                        Ik ben Hamza. Ik ben een student software developer en ik volg mijn studie
                         bij het Koning Willem I College in &apos;s-Hertogenbosch.
                     </p>
                     <div className="mt-6 flex gap-6">
