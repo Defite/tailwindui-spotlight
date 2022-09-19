@@ -58,22 +58,16 @@ export default function PhaserProject() {
                     </ToolsSection>
                     <ToolsSection title="">
                         <Tool title="Final product">
-                            <Tool title="Final product">
-                                <CarouselComponent>
-                                    <div>
-                                        <Image src={Searching}/>
-                                        <p className="legend">Homepagina</p>
-
-                                    </div>
-                                    <div>
-                                        <Image src={Searched}/>
-                                        <p className="legend">Zoekfunctie aangesproken  </p>
-
-                                    </div>
-
-                                </CarouselComponent>
-
-                            </Tool>
+                            <CarouselComponent>
+                                <div>
+                                    <Image src={Searching}/>
+                                    <p className="legend">Homepagina</p>
+                                </div>
+                                <div>
+                                    <Image src={Searched}/>
+                                    <p className="legend">Zoekfunctie aangesproken </p>
+                                </div>
+                            </CarouselComponent>
                         </Tool>
                     </ToolsSection>
                 </div>

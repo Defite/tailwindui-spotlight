@@ -22,7 +22,6 @@ import logoJumbo from '@/images/logos/jumbo.svg'
 import {generateRssFeed} from '@/lib/generateRssFeed'
 import {getAllArticles} from '@/lib/getAllArticles'
 import {formatDate} from '@/lib/formatDate'
-import DownloadFile from "@/components/Download";
 
 
 function BriefcaseIcon(props) {
@@ -60,6 +59,23 @@ function ArrowDownIcon(props) {
         </svg>
     )
 }
+
+
+function Article({article}) {
+    return (
+        <Card as="article">
+            <Card.Title href={`/articles/${article.slug}`}>
+                {article.title}
+            </Card.Title>
+            <Card.Eyebrow as="time" dateTime={article.date} decorate>
+                {formatDate(article.date)}
+            </Card.Eyebrow>
+            <Card.Description>{article.description}</Card.Description>
+            <Card.Cta>Read article</Card.Cta>
+        </Card>
+    )
+}
+
 
 function SocialLink({icon: Icon, ...props}) {
     return (
@@ -105,7 +121,6 @@ function Resume() {
                 <BriefcaseIcon className="h-6 w-6 flex-none"/>
                 <span className="ml-3">Work</span>
             </h2>
-
             <ol className="mt-6 space-y-4">
                 {resume.map((role, roleIndex) => (
                     <li key={roleIndex} className="flex gap-4">
@@ -142,13 +157,15 @@ function Resume() {
                     </li>
                 ))}
             </ol>
-<DownloadFile>
-
-</DownloadFile>
-
+            <Button href="articles" variant="secondary" className="group mt-6 w-full">
+                Zie meer
+                <ArrowDownIcon
+                className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50"/>
+            </Button>
         </div>
     )
 }
+
 
 function Photos() {
     let rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2']
