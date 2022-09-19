@@ -60,11 +60,11 @@ export default function PhaserProject() {
                         <Tool title="Final product">
                             <CarouselComponent>
                                 <div>
-                                    <Image src={Searching}/>
+                                    <Image src={Searching} alt=""/>
                                     <p className="legend">Homepagina</p>
                                 </div>
                                 <div>
-                                    <Image src={Searched}/>
+                                    <Image src={Searched} alt=""/>
                                     <p className="legend">Zoekfunctie aangesproken </p>
                                 </div>
                             </CarouselComponent>

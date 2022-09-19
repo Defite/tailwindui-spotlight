@@ -64,7 +64,7 @@ export default function PhaserProject() {
                     </ToolsSection>
                     <ToolsSection title="">
                         <Tool title="Final product">
-                            Dit is dan het eind product waar je sterren kan verzamelen en "spikes" moet ontwijken.
+                            Dit is dan het eind product waar je sterren kan verzamelen en &apos;spikes&apos; moet ontwijken.
                             <ReactPlayer>
 
                             </ReactPlayer>

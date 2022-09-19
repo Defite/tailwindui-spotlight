@@ -45,7 +45,7 @@ export default function PhaserProject() {
                     <ToolsSection>
                         <Tool title="Description">
                             Een simpele school project waarbij je een FAQ pagina moest maken voor een bestaande website.
-                            Je moest ervoor zorgen dat de antwoorden uitklappen als je op het vraag klikt of op een "+"
+                            Je moest ervoor zorgen dat de antwoorden uitklappen als je op het vraag klikt of op een &apos;+&apos;
                             klikt.
                         </Tool>
                         <Tool title="Wat ik geleerd heb">

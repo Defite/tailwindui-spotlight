@@ -18,6 +18,7 @@ import image5 from '@/images/photos/image-5.jpg'
 import logoVersteijnen from '@/images/logos/versteijnen.svg'
 import logoStichd from '@/images/logos/stichd.svg'
 import logoJumbo from '@/images/logos/jumbo.svg'
+import logoWalnut from '@/images/logos/walnut.png'
 
 import {generateRssFeed} from '@/lib/generateRssFeed'
 import {getAllArticles} from '@/lib/getAllArticles'
@@ -90,6 +91,16 @@ function SocialLink({icon: Icon, ...props}) {
 function Resume() {
     let resume = [
         {
+            company: 'Walnut loyalty',
+            title: 'Stagiair software development',
+            logo: logoWalnut,
+            start: '2022',
+            end: {
+                label: 'Present',
+                dateTime: new Date().getFullYear(),
+            },
+        },
+        {
             company: 'Versteijnen',
             title: 'Crossdock',
             logo: logoVersteijnen,
@@ -99,6 +110,7 @@ function Resume() {
                 dateTime: new Date().getFullYear(),
             },
         },
+
         {
             company: 'Stichd',
             title: 'Order picker',
@@ -160,12 +172,11 @@ function Resume() {
             <Button href="articles" variant="secondary" className="group mt-6 w-full">
                 Zie meer
                 <ArrowDownIcon
-                className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50"/>
+                    className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50"/>
             </Button>
         </div>
     )
 }
-
 
 function Photos() {
     let rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2']
@@ -204,7 +215,7 @@ export default function Home({articles}) {
                 <meta
                     name="description"
                     content="Ik ben Hamza. Ik ben een student software developer en ik volg mijn studie
-                    bij het Koning Willem I College in 's-Hertogenbosch."
+                    bij het Koning Willem I College in &apos;s-Hertogenbosch."
                 />
             </Head>
             <Container className="mt-9">
@@ -214,7 +225,7 @@ export default function Home({articles}) {
                     </h1>
                     <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
                         Ik ben Hamza. Ik ben een student software developer en ik volg mijn studie
-                        bij het Koning Willem I College in 's-Hertogenbosch.
+                        bij het Koning Willem I College in &apos;s-Hertogenbosch.
                     </p>
                     <div className="mt-6 flex gap-6">
 
